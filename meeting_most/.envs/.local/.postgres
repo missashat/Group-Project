@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=meeting_most
+POSTGRES_USER=GUKyoqOlhoxmHuRLITlmthBxYxjYnHSn
+POSTGRES_PASSWORD=kJioGC6EW6Lm65tCt4m5k77RyvN0nB1D0oYnp0Y1sRQ1vNIPfwQiiofJG1PKYfHw
