@@ -15,3 +15,15 @@ class User(AbstractUser):
 
     def get_absolute_url(self):
         return reverse("users:detail", kwargs={"username": self.username})
+        
+        
+#Julia attempting to add an agenda topic title 
+class Topic(Title):
+
+    title = models.CharField(_("Title of Topic"), blank=True, max_length=150)
+
+    def __str__(self):
+        return self.username
+
+    def get_absolute_url(self):
+        return reverse("users:detail", kwargs={"username": self.username})
